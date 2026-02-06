@@ -1,4 +1,3 @@
-DROP DATABASE socialnetwork;
 CREATE DATABASE socialnetwork;
 
 CREATE TABLE users (
@@ -38,4 +37,5 @@ CREATE TABLE user_phone (
 user_id         INT,
 user_phone      INT,
 FOREIGN KEY (user_id) REFERENCES users(user_id)
+
 );
